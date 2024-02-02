@@ -1,6 +1,7 @@
 name: Code tests & eval
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
